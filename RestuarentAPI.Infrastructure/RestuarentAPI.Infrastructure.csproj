@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\RestuarentAPI.Domain\RestuarentAPI.Domain.csproj" />
   </ItemGroup>
 

@@ -17,11 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Restuarent\Commands\CreateRestuarent\" />
     <Folder Include="Restuarent\Commands\DeleteRestuarent\" />
     <Folder Include="Restuarent\Commands\UpdateRestuarent\" />
-    <Folder Include="Restuarent\Queries\GetAllRestuarents\" />
-    <Folder Include="Restuarent\Queries\GetRestuarentById\" />
   </ItemGroup>
 
 </Project>

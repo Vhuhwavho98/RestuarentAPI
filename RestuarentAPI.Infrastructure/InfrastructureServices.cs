@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using RestuarentAPI.Domain.IRepository;
+using RestuarentAPI.Infrastructure.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +14,7 @@ namespace RestuarentAPI.Infrastructure
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services)
         {
 
+            services.AddTransient<IRestuarentRepository, RestuarentRepository>();
             return services;
         }
     }
