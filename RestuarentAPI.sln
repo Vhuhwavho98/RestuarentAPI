@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestuarentAPI", "RestuarentAPI\RestuarentAPI.csproj", "{ACC2FE2E-CBE8-4DDE-8B83-DDC3B1DAF7AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestuarentAPI.Domain", "RestuarentAPI.Domain\RestuarentAPI.Domain.csproj", "{4162BBAA-E793-4B59-BDF4-8F72116FD457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestuarentAPI.Infrastructure", "RestuarentAPI.Infrastructure\RestuarentAPI.Infrastructure.csproj", "{26AC08C3-7717-47A7-A04C-9C713CE87F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestuarentAPI.Application", "RestuarentAPI.Application\RestuarentAPI.Application.csproj", "{8FBE4AA8-8EF9-497D-AA4F-AC0719B98295}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{ACC2FE2E-CBE8-4DDE-8B83-DDC3B1DAF7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACC2FE2E-CBE8-4DDE-8B83-DDC3B1DAF7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACC2FE2E-CBE8-4DDE-8B83-DDC3B1DAF7AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4162BBAA-E793-4B59-BDF4-8F72116FD457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4162BBAA-E793-4B59-BDF4-8F72116FD457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4162BBAA-E793-4B59-BDF4-8F72116FD457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4162BBAA-E793-4B59-BDF4-8F72116FD457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26AC08C3-7717-47A7-A04C-9C713CE87F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26AC08C3-7717-47A7-A04C-9C713CE87F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26AC08C3-7717-47A7-A04C-9C713CE87F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26AC08C3-7717-47A7-A04C-9C713CE87F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBE4AA8-8EF9-497D-AA4F-AC0719B98295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBE4AA8-8EF9-497D-AA4F-AC0719B98295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBE4AA8-8EF9-497D-AA4F-AC0719B98295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBE4AA8-8EF9-497D-AA4F-AC0719B98295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
