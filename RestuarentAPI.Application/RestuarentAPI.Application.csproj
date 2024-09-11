@@ -16,9 +16,4 @@
     <ProjectReference Include="..\RestuarentAPI.Domain\RestuarentAPI.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Restuarent\Commands\DeleteRestuarent\" />
-    <Folder Include="Restuarent\Commands\UpdateRestuarent\" />
-  </ItemGroup>
-
 </Project>

@@ -48,6 +48,7 @@ namespace RestuarentAPI.Infrastructure.Repository
             .SetProperty(m=>m.CityName, restuarent.CityName)
             .SetProperty(m=> m.Halaal, restuarent.Halaal)
             .SetProperty(m=>m.CellNumber, restuarent.CellNumber)
+            .SetProperty(m => m.RestuarentType, restuarent.RestuarentType)
             ));
 
             return 0;
