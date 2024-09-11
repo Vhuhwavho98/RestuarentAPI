@@ -28,10 +28,10 @@ namespace RestuarentAPI.Application.Restuarent.Commands.CreateRestuarent
                 CityName= request.CityName,
                 Halaal= request.Halaal,
                 Description= request.Description,
+                RestuarentType= request.RestuarentType,
             };
 
-            var result= _restuarentRepository.CreateRestuarent(restuarent);
-
+            var result =await _restuarentRepository.CreateRestuarent(restuarent);
             return _mapper.Map<RestuarentVm>(result);
 
         }

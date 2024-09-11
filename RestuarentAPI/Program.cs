@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using RestuarentAPI.Application;
+using RestuarentAPI.Infrastructure;
 using RestuarentAPI.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,9 +12,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddInfrastructureServices();
+builder.Services.AddApplicationServices();
 builder.Services.AddDbContext<RestuarentDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("RestuarentConnectionString")));
-
 
 
 var app = builder.Build();

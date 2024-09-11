@@ -11,8 +11,8 @@ using RestuarentAPI.Infrastructure.Data;
 namespace RestuarentAPI.Infrastructure.Migrations
 {
     [DbContext(typeof(RestuarentDbContext))]
-    [Migration("20240910195648_Init")]
-    partial class Init
+    [Migration("20240911125559_Data Migration")]
+    partial class DataMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RestuarentAPI.Application.Common.Mappings
 {
-    public interface IMapForm<T>
+    public interface IMapFrom<T>
     {
         void Mapping(Profile profile);
     }

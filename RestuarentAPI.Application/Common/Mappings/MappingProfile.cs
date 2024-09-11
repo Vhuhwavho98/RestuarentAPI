@@ -17,8 +17,8 @@ namespace RestuarentAPI.Application.Common.Mappings
 
         public void ApplyMappingFromAssembly(Assembly assembly)
         {
-            var mapFromType = typeof(IMapForm<>);
-            var mappingMethodName = nameof(IMapForm<object>.Mapping);
+            var mapFromType = typeof(IMapFrom<>);
+            var mappingMethodName = nameof(IMapFrom<object>.Mapping);
             bool hasInterfaces(Type type) => type.IsGenericType && type.GetGenericTypeDefinition() == mapFromType;
 
             var types = assembly.GetExportedTypes()
@@ -50,6 +50,5 @@ namespace RestuarentAPI.Application.Common.Mappings
                 }
             }
         }
-
     }
 }
